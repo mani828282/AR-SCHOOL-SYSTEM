@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AR SCHOOL SYSTEM</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+      display: none
+    }
+  </style>
+</head>
+
+<body>
+
+  <body>
+
+    <head>
+      <style>
+        body {
+          background-image: url('/skol 1.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+      </style>
+    </head>
+
+    <body>
+      <!-- Navbar -->
+      <div class="w3-top">
+        <div class="w3-bar w3-blue w3-card">
+          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+            href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+              class="fa fa-bars"></i></a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+          <a href="About Us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+          <a href="ONLINE ADMISSIONS.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ONLINE
+            ADMISSIONS</a>
+          <a href="contact us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+          <a href="Management portal.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MANAGEMENT
+            PORTAL</a>
+          <a href="student portal.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">STUDENT PORTAL</a>
+          <a href="Admin portal.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ADMIN PORTAL</a>
+
+        </div>
+      </div>
+      <!-- Page content -->
+      <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+          <img src="/skol.png" style="width:100%">
+          <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+
+          </div>
+
+          <!-- About us section -->
+          <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h1 style="color:white;"class="w3-wide">About Us</h1>
+
+            <p class="w3-justify">
+            <h2 style="color:white;">Our Mission</h2>
+            <h3 style="color:white;">AR School system aims to provide quality education of an international standard. We aim for excellence
+              through quality management, quality training and quality teaching, bringing benefits to our students, the
+              community and the wider world</h3>
+            <h2 style="color:white;">
+              Our Solution
+            </h2>
+            <h3 style="color:white;">
+
+              Our comprehensive model brings together all of the adults in a child’s life, including parents, educators,
+              and medical and mental health providers, starting from a very early age. This multidisciplinary approach
+              helps close the achievement gap, ensuring that children and families living in underserved communities
+              receive the support they need to be well, learn, and thrive
+            </h3>
+            <h2 style="color:white;">Vision</h2>
+            <h3 style="color:white;">AR values its heritage while it continues to reinvent its educational approach to meet the needs of the
+              future. We believe that modern methods and attitudes can enable students to achieve their fullest
+              potential.
+
+              With the world and the needs of the community changing at an ever-increasing rate, Uma endeavours to be
+              open to change, to adapt, innovate and keep pace with the goals that society expects. At Uma, our aim and
+              belief is that through effort and hard work, students will be able to step confidently into the highly
+              competitive ‘real world’. We ensure that they are equipped with the ability to make mature and
+              well-informed judgements based on a clear understanding of essential principles, concepts and moral
+              values. This, we believe, is the best contribution we can make towards their development as productive
+              members of society and, through them, to the country and the wider world.</h3>
+
+
+
+
+          </div>
+        </div>
+        <!-- Footer -->
+        <footer class="w3-container w3-blue w3-center w3-margin-top">
+          <p>Find us on social media.</p>
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+          <p>Powered by Uma Edu.</a></p>
+        </footer>
+        <script>
+          // Automatic Slideshow - change image every 4 seconds
+          var myIndex = 0;
+          carousel();
+
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+          }
+        </script>
+    </body>
+
+</html>
